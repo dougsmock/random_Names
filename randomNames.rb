@@ -7,16 +7,30 @@
 # and do this in a tdd way.
 
 
-def arr(name)
+def arr()
   people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
-  while i < arr.length
-    i = 0
-    n = 0
-    people[i] = n
-    i += 1
-  end
+  shuffled_arr = []
+  shuffled_arr << people.shuffle
+  first = []
+  second = []
 
-
+  p shuffled_arr
 
 
 end
+
+
+
+
+#
+# i = 0
+# until first.length > shuffled_arr.length
+#   first[i] << shuffled_arr.pop
+#   i +=
+# end
+#
+# j = 0
+# until
+#
+#
+# end
