@@ -7,14 +7,18 @@
 # and do this in a tdd way.
 
 
-def arr()
-  people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
+def shuffle_name(people)
+  # people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
+  # p people
   shuffled_arr = []
-  shuffled_arr << people.shuffle
-  first = []
-  second = []
+  shuffled_arr = people.shuffle
 
   p shuffled_arr
+
+  shuffled_arr
+
+  # first = []
+
 
 
 end
