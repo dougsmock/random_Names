@@ -32,7 +32,7 @@ class RandomNames < Minitest::Test
   # end
 
   def test_counting_the_arrays
-    people = ["Tom", "Dick", "Harry", "Jenny"]
+    people = ["Tom", "Dick", "Harry", "Jenny", "Fred", "JoJo", "Freda"]
     results = shuffle_name(people)
     assert_equal(2, results.count)
   end

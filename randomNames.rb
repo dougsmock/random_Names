@@ -11,7 +11,7 @@ def shuffle_name(people)
   results = []
 
   i = 0
-  until first.count == 7
+  until first.count == 4
     p" #{first.length} first array length"
     p" #{shuffled_arr.length} shuffled arr length"
     p first
