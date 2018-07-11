@@ -7,10 +7,14 @@
 # and do this in a tdd way.
 
 
-def arr()
-
+def arr(name)
   people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
-
+  while i < arr.length
+    i = 0
+    n = 0
+    people[i] = n
+    i += 1
+  end
 
 
 
