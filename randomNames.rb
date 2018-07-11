@@ -21,7 +21,8 @@ def shuffle_name(people)
 
     results << first
     p" shuffled array #{shuffled_arr}"
-    results << shuffled_arr.slice(2)
+    results << shuffled_arr
+    # results << shuffled_arr.slice(2)
     p results
     results
 end
