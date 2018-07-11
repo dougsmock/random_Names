@@ -26,14 +26,17 @@ class RandomNames < Minitest::Test
   #   assert_equal("Sally", arr()[4])
   # end
 
-  def test_shuffled_array_has_correct_length
+  # def test_shuffled_array_has_correct_length
+  #   people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
+  #   assert_equal(5, shuffle_name(people).count)
+  # end
+
+  def test_counting_the_arrays
     people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
-    assert_equal(5, shuffle_name(people).count)
+    results = shuffle_name(people)
+    assert_equal(2, results.count)
   end
 
-  def test_first_array_has_correct_length
-    people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
-    assert_equal(3, first(people).count)
-  end
+
 
 end
