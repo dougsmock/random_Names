@@ -1,5 +1,5 @@
 def shuffle_name(people)
-  # people = ["Tom", "Dick", "Harry", "Jenny", "Sally"]
+  # people = ["Tom", "Dick", "Harry", "Jenny", "Fred", "JoJo", "Freda"]
   # p people
   shuffled_arr = []
   shuffled_arr = people.shuffle
@@ -11,7 +11,7 @@ def shuffle_name(people)
   results = []
 
   i = 0
-  until first.count == 3
+  until first.count == 7
     p" #{first.length} first array length"
     p" #{shuffled_arr.length} shuffled arr length"
     p first
